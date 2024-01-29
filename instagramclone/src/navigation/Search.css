@@ -1,0 +1,80 @@
+/* Add styles for the card-container and search-box */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_header {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
+.search-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.followers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_follow {
+  color: #0095f6;
+  font-weight: bold;
+  background: 0;
+  border: 0;
+}
+.search-box {
+  width: 70%;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.search {
+  font-size: 20px;
+}
+.search-box input {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box img {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.search-box span {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.search-box iframe {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+}
+
+/* Add responsive styles if necessary */
+@media (max-width: 768px) {
+  .search-box {
+    width: 90%;
+  }
+}

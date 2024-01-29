@@ -1,0 +1,34 @@
+/* StoryAvatars.css */
+.story_avatars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  padding: 10px;
+  background-color: #070000;
+}
+
+.story_avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.story_avatar img {
+  border: double red; /* This will make the avatar round */
+}
+
+.story_avatar span {
+  margin-top: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* .story-profile {
+  display: flex;
+  flex-direction: wrap;
+  align-items: end;
+} */

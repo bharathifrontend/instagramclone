@@ -1,0 +1,21 @@
+/* reels.css */
+.container {
+  border: 0;
+  padding: 20px;
+}
+
+.reels-header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.video-header {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 20px;
+}

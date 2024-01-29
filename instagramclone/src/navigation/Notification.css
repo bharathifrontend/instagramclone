@@ -1,0 +1,66 @@
+/* Notifications.css */
+
+/* .card-notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out; /* Add a subtle box-shadow transition */
+/* margin: auto;
+  max-width: 400px;
+} */
+
+.notification:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the box-shadow on hover */
+}
+
+.notification span {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.content-container {
+  width: 60%;
+
+  margin-left: 15%;
+}
+.card {
+  max-width: 400px;
+  margin: 0px auto;
+}
+.card-content {
+  margin-top: 20px;
+}
+.card h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card p {
+  margin-bottom: 10px;
+  margin-left: 0%;
+  color: white;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.card button {
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 40%;
+}
+.card button:hover {
+  background-color: gray;
+}

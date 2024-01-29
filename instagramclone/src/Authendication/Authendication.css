@@ -1,0 +1,65 @@
+/* * {
+  background-color: black;
+  color: white;
+} */
+.authendication {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 60px 50px;
+}
+.auth-left {
+  flex: 0.5;
+  text-align: center;
+}
+.auth-right {
+  flex: 0.5;
+}
+
+.auth-left > img {
+  width: 400px;
+  margin-top: 40px;
+}
+.auth-more {
+  margin-top: 30px;
+  border: 1px solid gray;
+  padding: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+.auth-more > span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.auth-more > span > button {
+  background: 0;
+  color: rgb(15, 168, 234);
+  border: 0;
+  font-weight: bolder;
+}
+.auth-more > span > button :hover {
+  cursor: pointer;
+}
+.get_app {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.play_buttons {
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.play_button {
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}

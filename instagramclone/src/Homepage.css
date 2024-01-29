@@ -1,0 +1,11 @@
+.homepage {
+  display: flex;
+  flex-direction: row;
+}
+.homepage-nav {
+  flex: 0.2;
+  border-right: 1px solid rgb(61, 61, 61);
+}
+.homepage-timeline {
+  flex: 0.8;
+}
